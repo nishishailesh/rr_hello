@@ -5,12 +5,12 @@ class ApplicationController < ActionController::Base
   
   
 def hi
-	render html: '<h1>Hi, કેમ છો?</h1>'
+	render html: '<h1>Don\'t you dare to come</h1>'
 end
 
 
 def bye
-	render html: '<h1>Bye, આવજો</h1>'
+	render html: '<h1>Get out</h1>'
 end  
 end
 
